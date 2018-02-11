@@ -58,7 +58,7 @@ class Main:
 
     # 버전 라벨
     def widget_version(self):
-        n_version = 10.2
+        n_version = 0.01
         label_version = tk.Label(self.root,
                                  bg='green',
                                  text='Ver. ' + str(n_version),
