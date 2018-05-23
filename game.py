@@ -2,10 +2,14 @@ import tkinter as tk
 
 
 class Game:
-    def __init__(self, root):
-        self.root = root
+    def __init__(self):
+        self.root = tk.Tk()
+
         self.set_window()
+        self.create_frame()
         self.create_widgets()
+
+        self.root.mainloop()
 
     # 창 설정
     def set_window(self):
